@@ -1,5 +1,8 @@
 # updatecli-demo
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/shenxianpeng/updatecli-demo)
+
+
 ## Install
 
 https://www.updatecli.io/docs/prologue/installation/
@@ -7,9 +10,8 @@ https://www.updatecli.io/docs/prologue/installation/
 I'm using Ubuntu
 
 ```bash
-curl -sL -o updatecli_amd64.deb https://github.com/updatecli/updatecli/releases/download/v0.49.2/updatecli_amd64.deb
-
-sudo apt install ./updatecli_amd64.deb
+curl -sL -o/var/cache/apt/archives/updatecli_amd64.deb https://github.com/updatecli/updatecli/releases/download/v0.71.0/updatecli_amd64.deb
+sudo apt install /var/cache/apt/archives/updatecli_amd64.deb
 ```
 
 ## Quick Start

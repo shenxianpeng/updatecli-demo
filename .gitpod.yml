@@ -1,5 +1,5 @@
 tasks:
     - name: install updastecli
       init: |
-          curl -sL -o updatecli_amd64.deb https://github.com/updatecli/updatecli/releases/download/v0.71.0/updatecli_amd64.deb
-          sudo apt install ./updatecli_amd64.deb
+          curl -sL -o/var/cache/apt/archives/updatecli_amd64.deb https://github.com/updatecli/updatecli/releases/download/v0.71.0/updatecli_amd64.deb
+          sudo apt install /var/cache/apt/archives/updatecli_amd64.deb
